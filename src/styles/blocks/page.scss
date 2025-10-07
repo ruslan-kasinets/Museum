@@ -104,11 +104,6 @@
     border: 1px solid $green;
     z-index: 1;
 
-    &__button-link {
-      display: block;
-      transform: translateX(100%) translateY(100%);
-    }
-
     &:hover {
       background-color: $green;
 
@@ -116,5 +111,10 @@
         filter: invert(100%) brightness(0);
       }
     }
+  }
+
+  &__button-link {
+    display: block;
+    transform: translateX(100%) translateY(100%);
   }
 }

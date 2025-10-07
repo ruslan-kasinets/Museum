@@ -73,24 +73,24 @@
       height: 60px;
     }
 
-    &__prev {
-      left: 4px;
-
-      @include on-tablet {
-        left: 10px;
-      }
-    }
-
-    &__next {
-      right: 4px;
-
-      @include on-tablet {
-        right: 10px;
-      }
-    }
-
     &:hover {
       transform: scale(1.2);
+    }
+  }
+
+  &__prev {
+    left: 4px;
+
+    @include on-tablet {
+      left: 10px;
+    }
+  }
+
+  &__next {
+    right: 4px;
+
+    @include on-tablet {
+      right: 10px;
     }
   }
 
