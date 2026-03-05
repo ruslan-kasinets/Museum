@@ -23,6 +23,10 @@
 
     @include on-desktop {
       aspect-ratio: 16/6.9;
+
+      @include on-tablet {
+        max-height: 550px;
+      }
     }
   }
 

@@ -17,6 +17,8 @@
 
     @include on-desktop {
       margin-bottom: 200px;
+
+      max-width: $desktop-min-width;
     }
   }
 
@@ -36,6 +38,7 @@
 
     @include on-desktop {
       margin-bottom: 200px;
+      margin-inline: auto;
     }
   }
 
